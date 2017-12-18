@@ -39,6 +39,7 @@
                 <constant>Goobye Camel...</constant>
             </setBody>
             <log id="_log2" message="body: ${body}"/>
+            <toD id="_to1" uri="file:target/out/${file:name.ext}"/>
         </route>
     </camelContext>
 </blueprint>
